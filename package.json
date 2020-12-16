@@ -1,0 +1,32 @@
+{
+  "name": "node-password-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaunmak1214/Node.js-Passport-Login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaunmak1214/Node.js-Passport-Login/issues"
+  },
+  "homepage": "https://github.com/Shaunmak1214/Node.js-Passport-Login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
